@@ -2,6 +2,7 @@
   "name": "marsapplication",
   "private": true,
   "version": "0.0.0",
+   "homepage": "https://abdelrahmanmerdan.github.io/Multi-Stage-Mars-Visit-Application-Form/"
   "type": "module",
   "scripts": {
     "dev": "vite",
