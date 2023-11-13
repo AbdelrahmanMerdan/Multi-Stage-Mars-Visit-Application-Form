@@ -1,0 +1,170 @@
+body {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png") fixed center;
+    background-size: 100%;
+  }
+
+.Container{
+    text-align: center;
+    display: block;
+    position: relative;
+    /* top: -2vh; */
+    
+  }
+    
+  
+  .left{
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 1px 20px;
+    vertical-align:top;
+    width: 38%;
+    
+  }
+  
+  
+  .inputtxt{
+    display: flex;
+    margin: 14px auto;
+    width: 80%;
+    height: 3vh;
+    font-size: 1vw;
+    font-family: Pathway Gothic One;
+    letter-spacing: 1.5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.427);
+    padding: 10px;
+    border: #ffffff;
+    
+  }
+  .inputtxt::placeholder{
+    color: white;
+  }
+
+  .labeltxt{
+    /* display: flex; */
+    margin: 14px auto;
+    width: 80%;
+    height: 3vh;
+    font-size: 1vw;
+    font-family: Pathway Gothic One;
+    letter-spacing: 1.5px;
+    color: white;
+    
+    padding: 10px;
+    border: #ffffff;
+    
+  }
+  
+  .inputdrp{
+    display: flex;
+    margin: 1.2vh auto;
+    width: 38.5vw;
+    height: 5vh;
+    font-size: 1vw;
+    font-family: Pathway Gothic One;
+    letter-spacing: 1.5px;
+    background-color: rgba(255, 255, 255, 0.427);
+    padding: 10px;
+    border: #ffffff;
+    color:  #ffffff;
+  }
+  
+  .inputdrp option{
+    background-color: #313132;
+  }
+  
+  #projdetail{
+    height: 16vh;
+    resize: none;
+  }
+  
+  
+  .visith1{
+    
+  
+    text-align: center;
+    display: block;
+    position: relative;
+    
+    padding: 10px;
+    font-family: Pathway Gothic One;
+    letter-spacing: 2px;
+    
+    font-size: 9.5vh;
+    
+    color:  #ffffff;
+    
+    text-underline-offset: 20%;
+    
+    
+  }
+  
+  .button{
+    display: inline-block;
+  
+    font-family: Pathway Gothic One;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    
+    font-size: 2.5vh;
+  
+    border: 3px solid rgb(253, 253, 253);
+    
+    background-color: #ffffff;
+   
+    vertical-align:bottom;
+    margin: 30px auto;
+    width: 100%;
+  
+    cursor: pointer;
+  }
+  
+  .button:hover{
+    color:  #ffffff;
+    background: url("https://smd-cms.nasa.gov/wp-content/uploads/2023/06/webb-flickr-52259221868-30e1c78f0c-4k-jpg.webp") fixed center;
+  }
+  
+  .center{
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 10px 40px;
+    vertical-align:top;
+    width: 38%;
+    background-color: rgba(255, 255, 255, 0.407);
+  
+    
+  }
+  
+  @media (max-width: 1000px) {
+    .Container{
+      text-align: center;
+      
+      position: relative;
+      
+      
+    }
+  
+    .left{
+      display: block;
+      
+      margin: auto;
+      width: 75%;
+      background-color: rgb(255, 255, 255, 0.5);
+    }
+  
+    .inputdrp{
+      display: block;
+      width:104%;
+      font-size: larger;
+      font-family: Pathway Gothic One;
+    letter-spacing: 1.5px;
+      background-color: rgb(255, 255, 255);
+      
+      border: #ffffff;
+      color:  #6D6E71;
+    }
+    .inputtxt{
+      font-size: 20px;
+    }
+    
+  }
